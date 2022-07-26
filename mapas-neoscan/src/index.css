@@ -99,3 +99,17 @@ button:focus-visible {
       transform: rotate(360deg);
   }
 }
+
+@media (max-width: 800px)
+{
+  main {
+    display: flex; 
+    flex-direction: column !important;
+  }
+
+  #mapa {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  }
+
+}

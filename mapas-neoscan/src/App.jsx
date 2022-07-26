@@ -16,10 +16,10 @@ function App() {
 
 
   return (
-    <main
+    <main id="main"
       style={{
         display: 'flex',
-        flexDirection: 'column',
+        flexDirection: 'row',
         width: '94vw',
         height: '99vh',
         justifyContent: 'space-evenly',
@@ -32,45 +32,44 @@ function App() {
           display: 'flex',
           position: 'absolute',
           alignItems: 'center',
-          justifyContent:'space-between',
+          justifyContent: 'space-between',
           top: '0',
           left: '0',
           height: '50px',
           width: '100vw',
           paddingLeft: '30px',
           backgroundColor: '#222',
-          padding:'0 30px'
+          padding: '0 30px'
 
         }}
       >
         
-        <div 
-        style={{
-          display: 'flex',
-          justifyContent: 'start',
-          gap:'20px'
-        }}
+        <div
+          style={{
+            display: 'flex',
+            justifyContent: 'start',
+            gap: '20px'
+          }}
         >
-        <img src="./assets/img/logo.png" alt="" width={25} />
-        <h1>Mapas NeoScan</h1>  
+          <img src="./assets/img/logo.png" alt="" width={25} />
+          <h1>Mapas NeoScan</h1>
         </div>
-        
         <a href="https://neoscan.com.br"><img src="./assets/img/home.png" alt="" width={25} /></a>
       </header>
-      <div
+
+      <div id="mapa"
         style={{
           borderRadius: '100%',
           overflow: 'hidden',
           margin: '0 auto',
           width: '320px',
-          height: '320px',
+          minHeight: '320px',
           position: 'relative',
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
           backgroundColor: '#00AAEE',
           filter: 'drop-shadow(6px 4px 19px #222)',
-          margin: '50px'
         }}
       >
 
@@ -231,7 +230,7 @@ function App() {
         style={{
           padding: '15px 35px',
           width: '380px',
-          height:'230px',
+          height: '230px',
           backgroundColor: '#EEEEEE',
           borderRadius: '30px',
           boxShadow: '5px 5px 15px 0px rgba(2,2,2,0.65)',
