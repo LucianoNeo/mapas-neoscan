@@ -273,7 +273,7 @@ function App() {
     style={{
       width: '100vw',
       display:'flex',
-      color:'white',
+      color:'#111',
       justifyContent:'center',
       position:'absolute',
       bottom:'20px'
