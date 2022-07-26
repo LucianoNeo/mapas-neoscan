@@ -104,7 +104,7 @@ button:focus-visible {
 {
   main {
     display: flex; 
-    flex-direction: column !important;
+    flex-direction: column ;
   }
 
   #mapa {

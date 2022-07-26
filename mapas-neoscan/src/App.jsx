@@ -19,12 +19,11 @@ function App() {
     <main id="main"
       style={{
         display: 'flex',
-        flexDirection: 'row',
         width: '94vw',
         height: '99vh',
         justifyContent: 'space-evenly',
         alignItems: 'center',
-        margin: '0 10px 0 10px'
+        margin: '0 auto'
       }}
     >
       <header
@@ -51,7 +50,10 @@ function App() {
             gap: '20px'
           }}
         >
+          <div>
           <img src="./assets/img/logo.png" alt="" width={25} />
+          </div>
+          
           <h1>Mapas NeoScan</h1>
         </div>
         <a href="https://neoscan.com.br"><img src="./assets/img/home.png" alt="" width={25} /></a>
@@ -61,7 +63,6 @@ function App() {
         style={{
           borderRadius: '100%',
           overflow: 'hidden',
-          margin: '0 auto',
           width: '320px',
           minHeight: '320px',
           position: 'relative',
