@@ -16,6 +16,7 @@ function App() {
 
 
   return (
+    <>
     <main id="main"
       style={{
         display: 'flex',
@@ -266,7 +267,22 @@ function App() {
         > {bairros} </p>
         <p>Link para o mapa: </p> <a href={link} target='_blank'>{link}</a>
       </div>
+      
     </main>
+    <div 
+    style={{
+      width: '100vw',
+      display:'flex',
+      color:'white',
+      justifyContent:'center',
+      position:'absolute',
+      bottom:'20px'
+
+    }}
+    >
+    <p>Desenvolvido por LucianoNeo - 2022</p>
+    </div>
+    </>
   )
 }
 
